@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 
 
 const HeaderContainer = styled.header`
-  background: transparent;
+  background: rgba(0, 0, 0, 0.01);
+  backdrop-filter: blur(10px);
   padding: 20px 40px;
   display: flex;
   align-items: center;

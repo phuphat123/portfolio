@@ -5,9 +5,13 @@ import Home from './assets/components/Home';
 import Projects from './assets/components/Projects';
 import Contact from './assets/components/Contact';
 
+import styled from 'styled-components';
 
 
-
+const Container = styled.div`
+  padding: 100px 40px 20px 40px;
+  
+`;
 
 
 
@@ -34,9 +38,9 @@ function App() {
     <>
     <GlobalStyle />
     <Header setCurrentPage={setCurrentPage}/>
-    <div style ={{paddingTop:'60px'}}>
+    <Container>
       {renderPage()}
-    </div>
+    </Container>
     
     </>
   )
