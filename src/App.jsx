@@ -9,7 +9,15 @@ import styled from 'styled-components';
 
 
 const Container = styled.div`
-  padding: 100px 40px 20px 40px;
+  padding: 0px 0px 0px 0px;
+
+  @media (max-width: 768px) {
+   padding: 100px 0px 100px 0px;
+  }
+
+  @media (max-height: 768px) {
+   padding: 100px 0px 100px 0px;
+  }
   
 `;
 

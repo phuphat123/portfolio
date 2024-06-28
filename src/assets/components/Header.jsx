@@ -30,13 +30,24 @@ const NavLink = styled.a`
   transition: color 0.3s;
 
   &:hover {
-    color: #00ffcc;
+    color: red;
+  }
+    
+
+  @media (max-width: 768px){
+   font-size: 0.5em;
+  
   }
 `;
 
 const Logo = styled.h1`
   margin: 0;
   color: black;
+
+  @media (max-width: 768px){
+   font-size: 1.5em;
+  
+  }
 `;
 
 
@@ -50,7 +61,7 @@ const Header = ({ setCurrentPage }) => {
         <Nav>
           
           <NavLink href="#" onClick={() => setCurrentPage('projects')}>
-            Projects
+            Showcase
           </NavLink>
           <NavLink href="#" onClick={() => setCurrentPage('contact')}>
             Contact

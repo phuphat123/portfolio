@@ -8,19 +8,14 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
     }
 
-    
-
     body {
-        background: url(${backgroundImage}) no-repeat center center;
+        background: url(${backgroundImage}) no-repeat center center fixed;
         background-size: cover;
-        
-        
         font-family: 'Michroma', sans-serif;
         margin: 0;
+        overflow-x: hidden; /* Prevents horizontal scroll */
+        
     }
-
-    
-    
 `;
 
 export default GlobalStyle;
