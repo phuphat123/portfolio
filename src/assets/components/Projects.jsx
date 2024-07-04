@@ -137,9 +137,9 @@ const Projects = () => {
     },
     {
       title: 'StatTreck, A mobile tracking application',
-      description: 'Mobile Tracking app built on Xamarin C#. Tracks Battery Usage, ScreenTime, Location Data using Google Maps API.',
+      description: 'Mobile Tracking app Group Project built on Xamarin C#. Tracks Battery Usage, ScreenTime, Location Data (My features I developed) using Google Maps API.',
       image: StatTreck,
-      demoLink: 'http://example.com/demo2',
+      demoLink: 'https://www.youtube.com/watch?v=YpciXfF5rro&feature=youtu.be',
       codeLink: 'https://github.com/phuphat123/StatTreck'
     },
     // Add more projects here

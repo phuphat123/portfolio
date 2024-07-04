@@ -101,10 +101,10 @@ const Home = () => {
           <Headline>Hi I&apos;m Phu Pham.</Headline>
           <SubLine>
           I&apos;m a {age} year old Full-Stack Software Developer based in London with proficiency in Python, JavaScript, and C#, also skilled in frameworks like React and Node.js. <br /><br />
-            My creations are inspired by Artificial Intelligence, Futurism, Functionality, and Aesthetics. <br /><br />
+            My projects are inspired by Artificial Intelligence, Futurism, Functionality, and Aesthetics. <br /><br />
             I graduated in Computing from University of Kent with an Upper Second-Class Honours, and a background in gaming has fostered my leadership, communication skills, and problem-solving abilities to provide
             value to a team.<br /><br />
-            I strive to combine creativity with technology to drive innovation and excellence in the digital space. <br />
+            I wish to combine creativity with technology to drive innovation and excellence in the digital space. <br />
           </SubLine>
 
           <DownloadButton href="../../../public/CV.pdf" download="Phu_Pham_CV.pdf">
