@@ -98,7 +98,7 @@ const Project = ({ title, description, image, demoLink, codeLink }) => {
     <ProjectCard
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.3 }}
+      transition={{ duration: 0.8 }}
     >
       <ProjectImage src={image} alt={title} />
       <ProjectContent>

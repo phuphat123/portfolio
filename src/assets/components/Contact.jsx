@@ -45,6 +45,7 @@ const Input = styled.input`
   border-radius: 5px;
   font-family: 'Michroma', sans-serif;
   background-color: white;
+  color: black;
 `;
 
 const Textarea = styled.textarea`
@@ -54,6 +55,7 @@ const Textarea = styled.textarea`
   border-radius: 5px;
   font-family: 'Michroma', sans-serif;
   background-color: white;
+  color: black;
   
 `;
 
@@ -154,7 +156,7 @@ const Contact = () => {
         <Textarea
           name="message"
           placeholder="Your Message"
-          rows="5"
+          rows="10"
           value={formData.message}
           onChange={handleChange}
           required
