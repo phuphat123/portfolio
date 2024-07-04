@@ -91,9 +91,9 @@ const Home = () => {
   return (
     <HomeContainer>
       <HeroSection
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 2 }}
-      transition={{ duration: 2 }}
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.3 }}
       
       >
         <ProfilePicture src={profileImage} alt="Profile Picture" />
@@ -102,7 +102,7 @@ const Home = () => {
           <SubLine>
           I&apos;m a {age} year old Full-Stack Software Developer based in London with proficiency in Python, JavaScript, and C#, also skilled in frameworks like React and Node.js. <br /><br />
             My creations are inspired by Artificial Intelligence, Futurism, Functionality, and Aesthetics. <br /><br />
-            I graduated in Computing from University of Kent with an Upper Second-Class Honours, and my background in gaming has fostered my leadership, communication skills, and problem-solving abilities to provide
+            I graduated in Computing from University of Kent with an Upper Second-Class Honours, and a background in gaming has fostered my leadership, communication skills, and problem-solving abilities to provide
             value to a team.<br /><br />
             I strive to combine creativity with technology to drive innovation and excellence in the digital space. <br />
           </SubLine>

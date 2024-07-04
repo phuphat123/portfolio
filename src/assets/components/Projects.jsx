@@ -1,17 +1,26 @@
-import React from 'react';
+
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-
+import PropTypes from 'prop-types';
 // Styled components for the project container and title
 export const ProjectContainer = styled.div`
   width: 100vw;
-  height: 100%;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center; /* Center content vertically */
   text-align: center;
-  padding: 50px 20px;
+  padding: 120px 20px;
+
+  @media (max-width: 768px) {
+
+   padding: 60px 0px 0px 0px;
+   
+  }
+
+
+
 `;
 
 export const ProjectsTitle = styled.h1`
@@ -31,12 +40,27 @@ const ProjectCard = styled(motion.div)`
   margin: 20px;
   overflow: hidden;
   width: 600px;
+
+   @media (max-width: 768px) {
+   width: 400px;
+   
+   
+  }
+
+  
 `;
 
 const ProjectImage = styled.img`
   width: 100%;
   height: 600px;
   object-fit: cover;
+
+   @media (max-width: 768px) {
+   height: 400px;
+   
+   
+  }
+  
 `;
 
 const ProjectContent = styled.div`
@@ -89,6 +113,15 @@ const Project = ({ title, description, image, demoLink, codeLink }) => {
   );
 };
 
+Project.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  demoLink: PropTypes.string.isRequired,
+  codeLink: PropTypes.string.isRequired,
+};
+
+
 import Necklace from '../../images/necklace.jpg';
 import StatTreck from '../../images/stattreck.jpg';
 
@@ -103,11 +136,11 @@ const Projects = () => {
       codeLink: 'https://github.com/phuphat123/StatTreck'
     },
     {
-      title: 'Project 2',
-      description: 'This is a short description of project 2.',
+      title: 'StatTreck, A mobile tracking application',
+      description: 'Mobile Tracking app built on Xamarin C#. Tracks Battery Usage, ScreenTime, Location Data using Google Maps API.',
       image: StatTreck,
       demoLink: 'http://example.com/demo2',
-      codeLink: 'http://github.com/example/project2'
+      codeLink: 'https://github.com/phuphat123/StatTreck'
     },
     // Add more projects here
   ];
