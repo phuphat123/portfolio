@@ -124,6 +124,7 @@ Project.propTypes = {
 
 import Necklace from '../../images/necklace.jpg';
 import StatTreck from '../../images/stattreck.jpg';
+import Golf from '../../images/golf.png';
 
 // Projects section component
 const Projects = () => {
@@ -141,6 +142,13 @@ const Projects = () => {
       image: StatTreck,
       demoLink: 'https://www.youtube.com/watch?v=YpciXfF5rro&feature=youtu.be',
       codeLink: 'https://github.com/phuphat123/StatTreck'
+    },
+    {
+      title: 'Golf Game on Unity3D',
+      description: 'Mini Golf Game built from Scratch using Unity 3D.',
+      image: Golf,
+      demoLink: 'https://www.youtube.com/watch?v=BHFuhikY7mQ&feature=youtu.be',
+      codeLink: 'https://github.com/phuphat123/Golf-2nd'
     },
     // Add more projects here
   ];
