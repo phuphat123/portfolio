@@ -140,7 +140,7 @@ const Projects = () => {
 
     {
       title: 'Constructing POS System and Modding Chromium POS Reciepts for Local Business',
-      description: 'Constructing a cheap POS System under £100 using second-hand devices from Ebay to aid a local family-owned Chinese Takeaway to make efficient sales. Made changes to Reciept layout with .FRX file type to help fit visual requirements. Also played around with Floreant Open Source POS beforehand before moving onto Aronium and created a compiler for .jrxml files to edit reciepts. ',
+      description: 'Constructing a cheap POS System under £100 using second-hand devices to aid a local family-owned Chinese Takeaway to make efficient sales. Made changes to Reciept layout with .FRX file type to help fit visual requirements, and set up software to make it as simple as possible for owners to use due to language barriers and digital literacy gap.',
       image: Receipt,
     },
 
